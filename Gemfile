@@ -22,7 +22,7 @@ group :development do
   gem 'annotate'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'debugger'
+  gem 'debugger', '~> 1.6.6'
   gem 'meta_request'
   gem 'pry-rails'
   gem 'rails-erd'
@@ -34,5 +34,6 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
+  gem 'mysql2'
+  gem 'unicorn', '~> 4.8'
 end
