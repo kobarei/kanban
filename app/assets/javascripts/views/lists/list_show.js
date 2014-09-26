@@ -149,7 +149,7 @@ Kanban.Views.ListShow = Backbone.View.extend({
       list.save();
       return value;
     }, {
-      submit: "Save",
+      submit: "保存",
       onblur: "submit",
       cssclass : "animated fadeIn"
     });
